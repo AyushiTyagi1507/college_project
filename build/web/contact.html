@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible"  content="IE=edge">
+    <meta name="viewport"  content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="webstyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>college</title>
+    <link rel = "icon" href ="image/1672979.png" type = "image/x-icon">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-container container " >
+            <input type="checkbox" name="" id="">
+            <div class="hamerburger-line">
+                <span class="line line1"></span>
+                <span class="line line2"></span>
+                <span class="line line3"></span>
+            </div>
+            <ul class="menu-items">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="faculty.html">Faculty</a></li>
+                <li><a href="table.html">Courses</a></li>
+                <li><a href="contact.html">Contact-us</a></li>
+            </ul>
+            <img class="logo" src="image/1672979.png" alt="logo">
+        </div>
+       </nav>
+       <section id="contact">
+        <form name="contact" method="POST" action="Servlet">
+        <div class="contact-container container">
+            <div class="contact-image">
+                <img src="image/Screenshot2.png" alt="">
+            </div>
+            <div class="form-container">
+                <h2>Contact-Us</h2>
+                <input type="text" name="name"  placeholder="Name" required>
+                <input type="email" name="email"  placeholder="E-mail" required>
+                <input type="tel" name="mobile" maxlegth="10" placeholder="Mobile" required>
+                <textarea name="message" value="message" cols="74" rows="10" placeholder="Type your message here" required></textarea>
+               <input type="submit" value="submit" name="submit" class="btn btn-primary">
+            </div>
+        </div>
+    </form>
+       </section>
+    
+</body>
+<footer id="footer">
+    <h2>College website &copy; all rights reserved.</h2>
+   </footer>
+</html>
